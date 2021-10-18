@@ -1799,13 +1799,14 @@ input, select, textarea {
 		flex-wrap: wrap;
 		justify-content: left;
 		align-items: center;
+		box-sizing: content-box;
 	}
 
 	.tech-icon {
 		width: 100px;
 		display: block;
 		text-align: center;
-		font-size: 1.2em;
+		font-size: 1em;
 		padding: 1em;
 	}
 	.tech-icon img {
